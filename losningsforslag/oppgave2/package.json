@@ -1,0 +1,22 @@
+{
+  "name": "appstart-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build-css": "cp src/main.css dist/main.css",
+    "build-js": "browserify --entry src/main.js --outfile dist/main.js",
+    "start": "node server.js"
+  },
+  "author": "Kent Andersen <kent.andersen@bekk.no>",
+  "license": "ISC",
+  "dependencies": {
+    "unfetch": "^2.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^14.1.0",
+    "connect": "^3.6.0",
+    "proxy-middleware": "^0.15.0",
+    "public-ip": "^2.3.3",
+    "serve-static": "^1.12.0"
+  }
+}

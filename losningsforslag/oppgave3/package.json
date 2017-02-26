@@ -1,0 +1,25 @@
+{
+  "name": "appstart-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build-css": "lessc src/main.less dist/main.css",
+    "build-js": "browserify --entry src/main.es2015.js --outfile dist/main.js --transform babelify",
+    "start": "node server.js"
+  },
+  "author": "Kent Andersen <kent.andersen@bekk.no>",
+  "license": "ISC",
+  "dependencies": {
+    "unfetch": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "babelify": "^7.3.0",
+    "browserify": "^14.1.0",
+    "connect": "^3.6.0",
+    "less": "^2.7.2",
+    "proxy-middleware": "^0.15.0",
+    "public-ip": "^2.3.3",
+    "serve-static": "^1.12.0"
+  }
+}
