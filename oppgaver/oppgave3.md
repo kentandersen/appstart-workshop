@@ -26,8 +26,7 @@ Legg til babel transform i 'build-js'
       "presets": ["es2015"]
     }
     ```
-  - koble babelify til browserify
+  - skift fra `src/main.js` til `src/main.es2015.js` og koble på babelify i browserify
     ```
     "build-js": "browserify --entry src/main.es2015.js --outfile dist/main.js --transform babelify"
     ```
-  
