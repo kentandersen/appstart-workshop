@@ -13,6 +13,6 @@
     "unfetch": "^2.1.0"
   },
   "devDependencies": {
-    "connect": "^3.6.0",
+    "connect": "^3.6.0"
   }
 }
