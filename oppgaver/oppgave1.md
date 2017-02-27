@@ -15,7 +15,7 @@ node server.js
 ```shell
 npm install serve-static --save-dev
 ```
-- `require` inn modulen
+- åpne filen `server.js` og `require` inn den nye modulen
 ```javascript
 const serveStatic = require('serve-static');
 ```
