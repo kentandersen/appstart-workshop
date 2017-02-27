@@ -2,11 +2,6 @@
   "name": "appstart-workshop",
   "version": "1.0.0",
   "description": "",
-  "scripts": {
-    "build-css": "node scripts/build-css.js",
-    "build-js": "node scripts/build-js.js",
-    "start": "node server.js"
-  },
   "author": "Kent Andersen <kent.andersen@bekk.no>",
   "license": "ISC",
   "dependencies": {
