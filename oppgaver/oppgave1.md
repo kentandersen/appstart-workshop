@@ -49,7 +49,7 @@ app.use('/whereami', proxy(parse('https://api.ip2country.info')));
 ```javascript
 const publicIp = require('public-ip');
 ```
-- kopier inn metode for å håndtere endepunktet:
+- kopier inn metoden for å håndtere endepunktet:
 ```javascript
 function servePublicIp(req, res) {
   publicIp.v4().then(ip => {
@@ -67,4 +67,4 @@ app.use('/whoami', servePublicIp);
 
 <br />
 <br />
-Nå har du en minimal http server som blant annet kan brukes til lokalt utviklingsmiljø
+Nå har du en minimal http server som blant annet kan brukes til lokal utvikling
