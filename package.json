@@ -4,6 +4,10 @@
   "description": "",
   "author": "Kent Andersen <kent.andersen@bekk.no>",
   "license": "ISC",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/kentandersen/appstart-workshop"
+  },
   "dependencies": {
     "unfetch": "^2.1.0"
   },
