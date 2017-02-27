@@ -9,6 +9,6 @@ const target = join(__dirname, '../dist/main.css');
 
 const file = readFileSync(source).toString();   // leser kildefilen fra disk
 less.render(file, function(error, processed) {  // render kjører asynkront, så vi sender inn
-                                                // render funksjon som blir kjørt når den er ferdig
+                                                // funksjon som blir kjørt når den er ferdig
   writeFileSync(target, processed.css);         // skriver resultatet til disk
 });
