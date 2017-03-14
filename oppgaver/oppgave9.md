@@ -14,6 +14,8 @@ Tips:
 * installer Gulp 4 med `npm install gulpjs/gulp#4.0`
 * http://gulpjs.org/getting-started.html
 * https://blog.wearewizards.io/migrating-to-gulp-4-by-example
+* https://github.com/gulpjs/gulp/blob/master/docs/recipes/fast-browserify-builds-with-watchify.md
 
 ## Sett opp byggesystemet i webpack
 * https://code.tutsplus.com/tutorials/introduction-to-webpack-part-1--cms-25791
+* https://webpack.js.org/guides/development/
